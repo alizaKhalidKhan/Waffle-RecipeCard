@@ -1,0 +1,136 @@
+*{
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color: rgb(169, 169, 169);
+}
+.outer-div{
+    background-color: white;
+    width: 500px;
+    height: 700px;
+    margin-left: 600px;
+    margin-top: 30px;
+    box-shadow: 0px 6px 28px black ;
+}
+.inner-div{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(./6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 340px;
+    color: white;
+    opacity: 1;
+    box-shadow: 0px 0px 20px black ;
+}
+.inner-div img{
+    background-color: white;
+    border-radius: 40%;
+    height: 30px;
+    margin-left: 468px;
+    margin-top: -45px;
+    position: fixed;
+}
+.inner-div img:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.inner-div .head{
+    text-align: center;
+    position: relative;
+    transform: translateY(150%);
+}
+.detail-div{
+    width: 450px;
+    margin-left: 22px;
+}
+.detail-div .waffle{
+    font-size: 22px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+hr{
+    filter: blur(0.8px);
+}
+.adjust .images-1{
+    margin-top: 20px;
+    height: 30px;
+    margin-left: 20px;
+}
+.adjust .pink-1{
+    color: rgb(248, 81, 136);
+    font-weight: bolder;
+    font-size: 22px;
+    margin-left: 60px;
+    margin-top: -25px;
+    line-height: 0.5;
+}
+.adjust .text-1{
+    font-size: 18px;
+    margin-left: 20px;
+}
+.adjust .images-2{
+    margin-top: 20px;
+    height: 30px;
+    margin-left: 180px;
+    position: fixed;
+    margin-top: -80px;
+}
+.adjust .pink-2{
+    color: rgb(248, 81, 136);
+    font-weight: bolder;
+    font-size: 22px;
+    margin-left: 225px;
+    position: fixed;
+    margin-top: -77px;
+}
+.adjust .text-2{
+    font-size: 18px;
+    margin-left: 180px;
+    position: fixed;
+    margin-top: -40px;
+}
+.adjust .images-3{
+    margin-top: 20px;
+    height: 30px;
+    margin-left: 330px;
+    position: fixed;
+    margin-top: -80px;
+}
+.adjust .pink-3{
+    color: rgb(248, 81, 136);
+    font-weight: bolder;
+    font-size: 22px;
+    margin-left: 370px;
+    position: fixed;
+    margin-top: -77px;
+}
+.adjust .text-3{
+    font-size: 18px;
+    margin-left: 330px;
+    position: fixed;
+    margin-top: -40px;
+}
+.detail-div .para{
+    margin-top: 20px;
+    line-height: 1.4;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.detail-div button{
+    background-color: rgb(248, 81, 136); 
+    border-color: rgb(252, 75, 134) ;
+    color: white;
+    cursor: pointer;
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.detail-div button:hover{
+    color: rgb(248, 81, 136);
+    background-color: white;
+}
